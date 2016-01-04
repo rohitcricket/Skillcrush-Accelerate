@@ -29,6 +29,12 @@ get_header(); ?>
 	</div>
 </section>
 
+		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+			<div id="secondary" class="widget-area" role="complementary">
+				<?php dynamic_sidebar( 'sidebar-2' ); ?>
+			</div>
+		<?php endif; ?>
+
 <section class="home-page">
 	<div class="site-content">
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -69,5 +75,6 @@ get_header(); ?>
 
 	</div>
 </section>	
+
 
 <?php get_footer(); ?>

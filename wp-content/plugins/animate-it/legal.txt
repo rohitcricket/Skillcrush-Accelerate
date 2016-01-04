@@ -1,0 +1,10 @@
+This free (GPL) Scripts and CSS get used in easyReservations.
+Thanks to the developers.
+
+Scripts
+http://www.bootstrap-switch.org/
+https://github.com/dirkgroenen/jQuery-viewport-checker
+http://mobiledetect.net/
+
+CSS
+http://daneden.github.io/animate.css/
