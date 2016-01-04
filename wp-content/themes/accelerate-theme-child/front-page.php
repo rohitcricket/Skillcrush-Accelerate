@@ -25,15 +25,18 @@ get_header(); ?>
 				<a href="<?php the_permalink(); ?>" class="read-more-link">Read More <span>&rsaquo;</span></a>
 			<?php endwhile; // end of the loop. ?>
 			<?php wp_reset_query(); // resets the altered query back to the original ?>
-		</div>
-	</div>
-</section>
 
-		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+					<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
 			<div id="secondary" class="widget-area" role="complementary">
 				<?php dynamic_sidebar( 'sidebar-2' ); ?>
 			</div>
 		<?php endif; ?>
+		
+		</div>
+	</div>
+</section>
+
+
 
 <section class="home-page">
 	<div class="site-content">
